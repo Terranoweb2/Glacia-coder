@@ -1,0 +1,132 @@
+# KongoWara - .gitignore
+
+# ===========================
+# Fichiers sensibles
+# ===========================
+*.env
+*.env.local
+*.env.production
+.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+*.crt
+id_rsa*
+*.ppk
+
+# Mots de passe et tokens
+*password*
+*secret*
+*token*
+*api_key*
+
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===========================
+# Build outputs
+# ===========================
+.next/
+out/
+dist/
+build/
+*.log
+.cache/
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ===========================
+# Backups
+# ===========================
+*.backup
+*.backup-*
+*.bak
+*.sql
+*.sql.gz
+*.dump
+backup/
+backups/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# Testing
+# ===========================
+coverage/
+.nyc_output/
+*.lcov
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
+.dockerignore
+
+# ===========================
+# Temporary files
+# ===========================
+tmp/
+temp/
+*.tmp
+
+# ===========================
+# Documentation temporaire
+# ===========================
+# Garder tous les .md dans le repo
+# mais exclure les temporaires si besoin
+# *_TEMP.md
+
+# ===========================
+# Fichiers spécifiques Windows
+# ===========================
+*.lnk
+$RECYCLE.BIN/
+
+# ===========================
+# Fichiers de l'ancien projet
+# (si vous ne voulez pas les commiter)
+# ===========================
+# Décommenter si nécessaire :
+# KONGOWARA_MOBILE_DEPLOYMENT_SUCCESS.md
+# SSH_TROUBLESHOOTING_ET_ALTERNATIVES.md
+# VERIFICATION_LOCALE.md
+# etc.
