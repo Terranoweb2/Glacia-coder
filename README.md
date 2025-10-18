@@ -27,6 +27,25 @@
 
 **KongoWara** est une plateforme fintech moderne permettant l'échange KOWA/XAF avec un kit complet d'amélioration automatisé.
 
+### 🎨 Aperçu de la Plateforme
+
+<div align="center">
+
+![KongoWara Homepage - Desktop](/.github/images/homepage-desktop.png)
+
+*Interface desktop : Échangez KOWA contre XAF en temps réel avec une sécurité maximale*
+
+</div>
+
+<details>
+<summary>📱 Version Mobile avec Calculateur</summary>
+
+![KongoWara Homepage - Mobile](/.github/images/homepage-mobile.png)
+
+*Interface mobile responsive avec calculateur d'échange intégré*
+
+</details>
+
 ### ✨ Points Forts
 
 - ✅ **5 scripts automatisés** d'installation
